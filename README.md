@@ -24,13 +24,9 @@ This project provides interactive visualization and analysis of crime data in Lo
    ```bash
    pip install -r requirements.txt
    ```
+1b. Create a /Data directory in the project folder and load the .csv data with the name `Crime_Data_from_2020_to_Present2025.csv`
 
-2. Generate sample data (if needed):
-   ```bash
-   python generate_sample_data.py
-   ```
-
-3. Launch the interactive dashboard:
+2. Launch the interactive dashboard:
    ```bash
    # Recommended: Use the launcher script
    python run_dashboard.py
@@ -39,9 +35,9 @@ This project provides interactive visualization and analysis of crime data in Lo
    python dashboard.py
    ```
 
-4. Open your browser and go to http://127.0.0.1:8050/
+3. Open your browser and go to http://127.0.0.1:8050/
 
-5. Or explore the Jupyter notebook:
+4. Or explore the Jupyter notebook:
    ```bash
    jupyter notebook sample.ipynb
    ```
@@ -85,12 +81,6 @@ Crime data is sourced from the Los Angeles Police Department, via Kaggle dataset
 - Filterable data table
 - Export functionality
 
-## Testing
-
-Run the test script to ensure all components are working correctly:
-```bash
-python dashboard_test_minimal.py
-```
 
 ## Troubleshooting
 
